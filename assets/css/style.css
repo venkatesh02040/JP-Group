@@ -920,7 +920,7 @@ label {
   text-transform: capitalize;
   line-height: 1;
   color: var(--heading-color);
-  padding: 40px 0;
+  padding: 30px 0;
 }
 @media screen and (max-width: 1199.98px) {
   .header-navigation .main-menu ul > li > a {
@@ -934,7 +934,7 @@ label {
   position: absolute;
   left: 0;
   top: 120%;
-  width: 250px;
+  width: 280px;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.2s;
@@ -1168,6 +1168,24 @@ label {
   }
 }
 
+@media screen and (max-width: 370px) {
+.header-navigation .theme-nav-menu {
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: -290px;
+    width: 260px;
+    height: 100%;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    padding: 20px 20px 30px;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index: 9999;
+    background-color: var(--white-color);
+  }}
+
 /* Nav Right Item */
 .nav-right-item {
   display: -webkit-box;
@@ -1211,36 +1229,11 @@ label {
   }
 }
 
-.header-one {
-  margin-top: 25px;
-}
-.header-one .container-fluid {
-  padding-left: 90px;
-  padding-right: 90px;
-}
-@media (max-width: 1650px) {
-  .header-one .container-fluid {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
-@media screen and (max-width: 1199.98px) {
-  .header-one .container-fluid {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
 .header-one .header-navigation {
   background-color: var(--white-color);
-  padding: 0 30px;
-  border-radius: 100px;
+  padding: 20px;
 }
-@media screen and (max-width: 1199.98px) {
-  .header-one .header-navigation {
-    padding: 15px 20px;
-    border-radius: 50px;
-  }
-}
+
 .header-one .nav-right-item .offcanvas-toggle {
   color: var(--heading-color);
   border-color: var(--heading-color);
@@ -1308,9 +1301,6 @@ label {
 }
 
 /* Header Style Four */
-.header-four {
-  margin-top: 25px;
-}
 .header-four .container-fluid {
   padding-left: 100px;
   padding-right: 100px;
@@ -1328,16 +1318,15 @@ label {
   }
 }
 .header-four .header-navigation {
-  border-radius: 100px;
   border: 0.5px solid rgba(255, 255, 255, 0.26);
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(25px);
-  padding: 0 40px;
+  padding: 20px;
 }
 @media screen and (max-width: 1199.98px) {
   .header-four .header-navigation {
     backdrop-filter: inherit;
-    padding: 10px 15px;
+    padding: 20px;
   }
 }
 .header-four .header-navigation .main-menu ul > li > a {
