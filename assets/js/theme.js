@@ -545,11 +545,7 @@ Version: 1.0
     });
 
     //===== Nice select js
-    
-    if ($('select').length){
-        $('select').niceSelect();
-    }
-    
+
     //===== Dynamic Background
 
     function dynamicBackground() {
@@ -576,4 +572,10 @@ Version: 1.0
         dynamicBackground();
     });
 
+
+        
+    if ($('select').length){
+        $('select').niceSelect();
+    }
+    
 })(window.jQuery);
