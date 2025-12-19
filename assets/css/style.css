@@ -7078,6 +7078,11 @@ label {
   border: 1px solid var(--border-color);
 }
 
+@media screen and (max-width: 1025px) {
+.renvia-contact_two .renvia-content-box {
+    padding-right: 0px;
+}}
+
 @media (max-width: 767.98px) {
   .renvia-contact_two .contact-form-wrapper {
     padding: 30px 20px 40px;
