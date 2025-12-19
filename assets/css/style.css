@@ -1523,7 +1523,7 @@ label {
 }
 
 /* Sticky Header */
-.sticky {
+/* .sticky {
   position: fixed;
   top: 0;
   left: 0;
@@ -1566,7 +1566,7 @@ label {
 .sticky.header-four .nav-right-item .nav-button .theme-btn.style-one:hover {
   background-color: var(--white-color);
   color: var(--primary-color);
-}
+} */
 
 /*======================
     Hero Section  CSS
