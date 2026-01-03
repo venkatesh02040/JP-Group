@@ -2283,7 +2283,7 @@ label {
 }
 
 .renvia-about_one .renvia-image-box .renvia-image.image_one img {
-  max-width: 355px;
+  max-width: 305px;
   border-radius: 20px;
 }
 
@@ -3498,7 +3498,7 @@ label {
 }
 
 .renvia-award-item.style-one .award-title {
-  width: 250px;
+  width: 350px;
 }
 
 @media screen and (max-width: 991.98px) {
@@ -3548,6 +3548,16 @@ label {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 350px;
+}
+
+@media screen and (max-width: 500px) {
+  .renvia-award-item.style-one .award-year h3{
+    font-size: 20px;
+  }
+  .renvia-award-item.style-one .award-thumb-year{
+    width: 300px;
+  }
 }
 
 .renvia-award-item.style-one .award-thumb-year .award-thumb {
