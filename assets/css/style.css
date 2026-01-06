@@ -306,7 +306,7 @@ label {
 }
 
 .section-title h2 {
-  font-size: 46px;
+  font-size: 44px;
   margin-bottom: 20px;
 }
 
@@ -3029,7 +3029,7 @@ label {
 }
 
 .renvia-feature_one .renvia-image {
-  margin-right: -55px;
+  margin-right: 55px;
 }
 
 @media screen and (max-width: 1199.98px) {
@@ -3042,9 +3042,9 @@ label {
   border-radius: 30px;
 }
 
-.renvia-feature_one .renvia-content-box {
+/* .renvia-feature_one .renvia-content-box {
   padding-left: 85px;
-}
+} */
 
 @media screen and (max-width: 1199.98px) {
   .renvia-feature_one .renvia-content-box {
@@ -3669,6 +3669,11 @@ label {
   background-color: var(--heading-color);
   margin-bottom: 15px;
   margin-top: -30px;
+}
+
+.renvia-iconic-box.style-one .icon i{
+     color: #fff;
+     font-size: 25px;          
 }
 
 .renvia-iconic-box.style-one .content h5 {
@@ -7930,10 +7935,19 @@ label {
 .step-icon {
     width: 85px;
     height: 85px;
-    border: 1px solid;
+    background-color: #000;      /* change to your brand color */
     margin: 0 auto 15px;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.step-icon i {
+    font-size: 36px;             /* increase icon size */
+    color: #fff;                 /* white icon */
+}
+
 
 /* ---------------- INDUSTRIES ---------------- */
 .industries { text-align: center; margin: 60px 0; }
