@@ -5951,13 +5951,13 @@ label {
   }
 }
 
-.renvia-blog-post-item.style-one .post-content .title:hover {
+/* .renvia-blog-post-item.style-one .post-content .title:hover {
   color: var(--primary-color);
 }
 
 .renvia-blog-post-item.style-one .post-content .title:hover a {
   text-decoration: underline;
-}
+} */
 
 .renvia-blog-post-item.style-two .post-thumbnail img {
   width: 100%;
