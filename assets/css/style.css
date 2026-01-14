@@ -2109,7 +2109,7 @@ label {
 
 /* Page Banner CSS */
 .page-hero {
-  padding: 250px 0 135px;
+  padding: 350px 0 215px;
   position: relative;
   z-index: 1;
 }
@@ -2343,15 +2343,16 @@ label {
 
 .renvia-about_one .renvia-image-box .renvia-ratings-box {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: -6px;
+  left: 330px;
+  /* right: 0;
   text-align: center;
   border: 1px solid var(--border-color);
   padding: 10px 40px 20px;
   border-radius: 30px;
   max-width: 275px;
   width: 100%;
-  background-color: var(--white-color);
+  background-color: var(--white-color); */
 }
 
 @media (max-width: 767.98px) {
@@ -7858,7 +7859,7 @@ label {
 
 .container {
   width: 90%;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: auto;
 }
 
