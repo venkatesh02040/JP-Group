@@ -2780,13 +2780,14 @@ label {
 
 @media screen and (max-width: 1199.98px) {
   .renvia-work-sec .renvia-work-item .content {
-    padding-left: 60px;
+    padding: 0px;
   }
 }
 
 @media screen and (max-width: 991.98px) {
   .renvia-work-sec .renvia-work-item .content {
-    padding-left: 80px;
+    padding-left: 0px;
+    padding-top: 0px;
   }
 }
 
@@ -2794,6 +2795,15 @@ label {
   .renvia-work-sec .renvia-work-item .content {
     padding-left: 0;
   }
+}
+
+@media (max-width: 767.98px) {
+.mv_block{
+  display: block;
+}
+.mv_content{
+  padding-top: 20px;
+}
 }
 
 .renvia-work-sec .renvia-work-item .content .sub-text {
@@ -2838,14 +2848,14 @@ label {
 
 @media (max-width: 1650px) {
   .renvia-work-sec .renvia-work-item .content .step {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 }
 
 @media (max-width: 767.98px) {
   .renvia-work-sec .renvia-work-item .content .step {
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     padding-left: 0px;
   }
 }
