@@ -2799,7 +2799,7 @@ label {
 
 @media (max-width: 767.98px) {
 .mv_block{
-  display: block;
+  display: block !important;
 }
 .mv_content{
   padding-top: 20px;
