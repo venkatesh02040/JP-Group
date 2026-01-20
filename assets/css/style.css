@@ -5690,7 +5690,7 @@ label {
 }
 
 .renvia-testimonial_one .renvia-image {
-  margin-right: 35px;
+  margin-right: 0px;
 }
 
 @media (max-width: 1650px) {
@@ -5705,10 +5705,10 @@ label {
 }
 
 .renvia-testimonial_one .renvia-content-box {
-  padding: 120px 220px 125px 120px;
+  padding: 45px;
   border-radius: 30px;
 }
-
+/* 
 @media (max-width: 1650px) {
   .renvia-testimonial_one .renvia-content-box {
     padding: 27px 50px 27px 50px;
@@ -5725,7 +5725,7 @@ label {
   .renvia-testimonial_one .renvia-content-box {
     padding: 50px 30px 50px;
   }
-}
+} */
 
 .renvia-testimonial_one .renvia-content-box .testimonial-slider-wrap {
   position: relative;
