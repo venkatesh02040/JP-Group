@@ -189,6 +189,18 @@ main {
   width: 100%;
 }
 
+.jp-active a{
+  color: #d4af53 !important;
+}
+
+.jp-active .sub-menu a{
+  color: #151515 !important;
+}
+
+.jp-active .sub-menu a:hover{
+  color: #d4af53 !important;
+}
+
 /*===== Scrollbar =====*/
 ::-webkit-scrollbar {
   width: 5px;
